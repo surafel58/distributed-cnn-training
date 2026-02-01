@@ -56,3 +56,4 @@ checkpoints/
 
 # Environment variables
 .env
+data/
