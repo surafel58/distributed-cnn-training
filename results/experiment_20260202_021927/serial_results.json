@@ -1,0 +1,60 @@
+{
+  "model_name": "SimpleCNN",
+  "training_type": "serial",
+  "num_processes": 1,
+  "batch_size": 64,
+  "learning_rate": 0.01,
+  "num_epochs": 5,
+  "total_training_time": 583.2970871925354,
+  "final_train_loss": 0.028560204676048296,
+  "final_train_accuracy": 0.9912286552828175,
+  "final_val_loss": 0.02830531840623589,
+  "final_val_accuracy": 0.9904,
+  "epoch_metrics": [
+    {
+      "epoch": 0,
+      "train_loss": 0.22377414466701886,
+      "train_accuracy": 0.9317969583778015,
+      "val_loss": 0.05199479471575469,
+      "val_accuracy": 0.9824,
+      "epoch_time": 76.88797664642334,
+      "samples_per_second": 780.356079285526
+    },
+    {
+      "epoch": 1,
+      "train_loss": 0.06276633605977724,
+      "train_accuracy": 0.9812566702241196,
+      "val_loss": 0.03846740143725183,
+      "val_accuracy": 0.9875,
+      "epoch_time": 129.46072340011597,
+      "samples_per_second": 463.4610283658144
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.044228340683913944,
+      "train_accuracy": 0.9862259871931697,
+      "val_loss": 0.03300715737559367,
+      "val_accuracy": 0.9897,
+      "epoch_time": 116.57887411117554,
+      "samples_per_second": 514.6730096465072
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.03478883999704732,
+      "train_accuracy": 0.9889274279615795,
+      "val_loss": 0.028752658090181647,
+      "val_accuracy": 0.9906,
+      "epoch_time": 128.99774932861328,
+      "samples_per_second": 465.124394125311
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.028560204676048296,
+      "train_accuracy": 0.9912286552828175,
+      "val_loss": 0.02830531840623589,
+      "val_accuracy": 0.9904,
+      "epoch_time": 131.3672604560852,
+      "samples_per_second": 456.7348043316882
+    }
+  ]
+}
