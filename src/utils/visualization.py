@@ -74,7 +74,7 @@ def plot_loss_curves(
     
     if save_path:
         Path(save_path).parent.mkdir(parents=True, exist_ok=True)
-        plt.savefig(save_path, dpi=150, bbox_inches='tight')
+        plt.savefig(save_path, dpi=300, bbox_inches='tight', facecolor='white', edgecolor='none')
         print(f"Loss curves saved to: {save_path}")
     
     if show:
@@ -132,7 +132,7 @@ def plot_speedup(
     
     if save_path:
         Path(save_path).parent.mkdir(parents=True, exist_ok=True)
-        plt.savefig(save_path, dpi=150, bbox_inches='tight')
+        plt.savefig(save_path, dpi=300, bbox_inches='tight', facecolor='white', edgecolor='none')
         print(f"Speedup plot saved to: {save_path}")
     
     if show:
@@ -190,7 +190,7 @@ def plot_efficiency(
     
     if save_path:
         Path(save_path).parent.mkdir(parents=True, exist_ok=True)
-        plt.savefig(save_path, dpi=150, bbox_inches='tight')
+        plt.savefig(save_path, dpi=300, bbox_inches='tight', facecolor='white', edgecolor='none')
         print(f"Efficiency plot saved to: {save_path}")
     
     if show:
@@ -290,7 +290,7 @@ def plot_training_comparison(
     
     if save_path:
         Path(save_path).parent.mkdir(parents=True, exist_ok=True)
-        plt.savefig(save_path, dpi=150, bbox_inches='tight')
+        plt.savefig(save_path, dpi=300, bbox_inches='tight', facecolor='white', edgecolor='none')
         print(f"Training comparison plot saved to: {save_path}")
     
     if show:
@@ -333,7 +333,7 @@ def plot_epoch_times(
     
     if save_path:
         Path(save_path).parent.mkdir(parents=True, exist_ok=True)
-        plt.savefig(save_path, dpi=150, bbox_inches='tight')
+        plt.savefig(save_path, dpi=300, bbox_inches='tight', facecolor='white', edgecolor='none')
         print(f"Epoch times plot saved to: {save_path}")
     
     if show:
